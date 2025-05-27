@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+</head>
+<body>
+
+  <!-- BARRE DE NAVIGATION -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#travail">Travail</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- SECTION ACCUEIL -->
+  <section id="accueil">
+    <h1>Bienvenue sur mon portfolio</h1>
+    <p>Je suis développeur web junior passionné par le design et le code.</p>
+  </section>
+
+  <!-- SECTION À PROPOS -->
+  <section id="apropos">
+    <h2>À propos de moi</h2>
+    <p>Je suis étudiant en développement web. J'aime créer des sites interactifs et esthétiques.</p>
+    <video width="320" controls>
+      <source src="video-presentation.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la lecture de la vidéo.
+    </video>
+  </section>
+
+  <!-- SECTION TRAVAIL -->
+  <section id="travail">
+    <h2>Mes projets</h2>
+    <ul>
+      <li><a href="https://mon-projet1.com">Projet 1 – Portfolio personnel</a></li>
+      <li><a href="https://mon-projet2.com">Projet 2 – Application météo</a></li>
+      <li><a href="https://mon-projet3.com">Projet 3 – Blog HTML/CSS</a></li>
+    </ul>
+  </section>
+
+  <!-- SECTION CV -->
+  <section id="cv">
+    <h2>Mon CV</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Année</th>
+          <th>Formation / Expérience</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2023</td>
+          <td>Formation Développement Web – OpenClassrooms</td>
+        </tr>
+        <tr>
+          <td>2024</td>
+          <td>Stage Front-End – Agence WebXYZ</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- SECTION CONTACT -->
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+    <form>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required><br>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="message">Message :</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br>
+
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <audio controls>
+      <source src="musique-fond.mp3" type="audio/mp3">
+      Votre navigateur ne supporte pas l'audio HTML5.
+    </audio>
+  </section>
+
+  <!-- PIED DE PAGE -->
+  <footer>
+    <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+    <p>Suivez-moi sur :
+      <a href="https://linkedin.com">LinkedIn</a> |
+      <a href="https://github.com">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
